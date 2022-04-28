@@ -7,10 +7,13 @@ def run():
 
     # numbers = {i: i**3 for i in range(1,101) if i % 3 != 0}
 
-    numbers = {i: round(sqrt(i),2) for i in range(1, 101)}
+    # numbers = {i: round(sqrt(i),2) for i in range(1, 101)}
+    # print(numbers)
+
+    my_list = [1, 2, 3, 4, 5]
+
+    numbers = [i**2 for i in my_list]
     print(numbers)
-
-
 
 if __name__ == '__main__':
     run()
